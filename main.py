@@ -6,7 +6,7 @@ import time
 option = webdriver.ChromeOptions()
 option.add_experimental_option("detach", True)
 
-chrome_driver_path = "F:\Software\chromedriver_win32.exe"
+chrome_driver_path = "your chrome webdriver path"
 service = Service(executable_path=chrome_driver_path)
 driver = webdriver.Chrome(service=service, options=option)
 
